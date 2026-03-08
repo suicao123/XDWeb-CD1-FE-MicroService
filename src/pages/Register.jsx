@@ -39,7 +39,7 @@ const Register = () => {
             });
             const data = await res.json();
             if (!res.ok) {
-                alert(data.error || "Gửi OTP thất bại");
+                alert(data.message || "Gửi OTP thất bại");
             } else {
                 alert("OTP đã gửi về email 📩");
             }
