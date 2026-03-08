@@ -16,7 +16,7 @@ const Register = () => {
         confirm_password: ''
     });
 
-    const BASE_URL = import.meta.env.VITE_API_BASE_URL_API;
+    const BASE_URL = import.meta.env.VITE_API_BASE_URL_API_AUTH;
     
 
     // Hàm xử lý khi người dùng nhập liệu

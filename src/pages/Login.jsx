@@ -12,7 +12,7 @@ const Login = () => {
         e.preventDefault();
 
         const LOGIN_API = import.meta.env.VITE_API_LOGIN;    
-        const BASE_URL = import.meta.env.VITE_API_BASE_URL_API;
+        const BASE_URL = import.meta.env.VITE_API_BASE_URL_API_AUTH;
 
 
         try {
